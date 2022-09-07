@@ -1,0 +1,14 @@
+A first class function is a function that is treated like a first class citizen. This means that it should have the same operational support as other entities.
+This applies in Javascript as we are able to pass functions as arguments and return them from other functions which result in higher order functions. Also we are able to assign them to variables and then call the variable to use the function.
+Declaring a function is telling the computer about the function name and how to call it whereas calling it is accessing the function or telling the interpreter to run the code within the function.
+
+e.g. If we have the function below:
+function example(){
+console.log("Function");
+}
+
+the above section is declaring the function.
+
+example();
+
+the above line is calling the function.
